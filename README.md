@@ -1,23 +1,23 @@
-# OcrValidation
+# OcrValidations
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.0.
 
 ## Code scaffolding
 
-Run `ng generate component component-name --project ocr-validation` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ocr-validation`.
-> Note: Don't forget to add `--project ocr-validation` or else it will be added to the default project in your `angular.json` file. 
+Run `ng generate component component-name --project ocr-validations` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ocr-validations`.
+> Note: Don't forget to add `--project ocr-validations` or else it will be added to the default project in your `angular.json` file. 
 
 ## Build
 
-Run `ng build ocr-validation` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build ocr-validations` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build ocr-validation`, go to the dist folder `cd dist/ocr-validation` and run `npm publish`.
+After building your library with `ng build ocr-validations`, go to the dist folder `cd dist/ocr-validations` and run `npm publish`.
 
 ## Running unit tests
 
-Run `ng test ocr-validation` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test ocr-validations` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 ## Further help
 

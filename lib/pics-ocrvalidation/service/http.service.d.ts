@@ -1,6 +1,5 @@
 import { HttpClient, HttpErrorResponse, HttpHeaders } from '@angular/common/http';
 import { BehaviorSubject } from 'rxjs';
-import 'rxjs/add/operator/map';
 import { Observable } from 'rxjs/internal/Observable';
 import { DataStoreService } from './data-store.service';
 import * as i0 from "@angular/core";

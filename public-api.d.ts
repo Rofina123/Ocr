@@ -1,3 +1,3 @@
-export * from './lib/ocr-validation.service';
-export * from './lib/ocr-validation.component';
-export * from './lib/ocr-validation.module';
+export * from './lib/ocr-validations.service';
+export * from './lib/ocr-validations.component';
+export * from './lib/ocr-validations.module';

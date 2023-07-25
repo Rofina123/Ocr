@@ -1,6 +1,6 @@
 {
-  "name": "@pics-core/ocr-validation",
-  "version": "0.0.3",
+  "name": "@pics-core/ocr-validations",
+  "version": "0.0.2",
   "peerDependencies": {
     "@angular/common": "^12.2.0",
     "@angular/core": "^12.2.0"
@@ -8,11 +8,11 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "main": "bundles/pics-core-ocr-validation.umd.js",
-  "module": "fesm2015/pics-core-ocr-validation.js",
-  "es2015": "fesm2015/pics-core-ocr-validation.js",
-  "esm2015": "esm2015/pics-core-ocr-validation.js",
-  "fesm2015": "fesm2015/pics-core-ocr-validation.js",
-  "typings": "pics-core-ocr-validation.d.ts",
+  "main": "bundles/pics-core-ocr-validations.umd.js",
+  "module": "fesm2015/pics-core-ocr-validations.js",
+  "es2015": "fesm2015/pics-core-ocr-validations.js",
+  "esm2015": "esm2015/pics-core-ocr-validations.js",
+  "fesm2015": "fesm2015/pics-core-ocr-validations.js",
+  "typings": "pics-core-ocr-validations.d.ts",
   "sideEffects": false
 }

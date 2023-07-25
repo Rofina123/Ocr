@@ -1,7 +1,6 @@
 import { EventEmitter, Injector, OnInit } from '@angular/core';
 import { AlertService } from '../service/alert.service';
 import { DataStoreService } from '../service/data-store.service';
-import { FormioComponent } from 'angular-formio';
 import { OcrValidationService } from '../@core/ocr-validation.service';
 import { Subscription } from 'rxjs';
 import { RBACINFO } from '../@core/ocr-validation-url.config';
@@ -15,8 +14,11 @@ export declare class OcrvalidationComponent implements OnInit {
     tableschemaconfig: any;
     jsonForm: any;
     isformIO: boolean;
-    formIO: FormioComponent;
     formJson: Array<any>;
+    environment: any;
+    RBACORG: RBACINFO;
+    orgSubs: Subscription;
+    orgId: any;
     triggerRefresh: any;
     authService: any;
     localstorage: any;
@@ -29,10 +31,6 @@ export declare class OcrvalidationComponent implements OnInit {
     documentType: any;
     sourceid: any;
     isReadOnly: boolean;
-    environment: any;
-    RBACORG: RBACINFO;
-    orgSubs: Subscription;
-    orgId: any;
     contentArray: Array<any>;
     formResponseData: any;
     currenttemplateResult: any;
